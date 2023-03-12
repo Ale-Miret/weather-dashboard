@@ -1,9 +1,11 @@
+/* Applies box-sizing to all elements, sets margins and padding to 0 */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* Applies font-family, font-size, line-height, and background-color to the body */
 body {
     font-family: Arial, sans-serif;
     font-size: 15px;
@@ -11,6 +13,7 @@ body {
     background-color: rgb(177, 180, 185);
 }
 
+/* Styles the header section with background-color, color, padding, display, justify-content, and align-items */
 header {
     background-color: #364b61;
     color: #fff;
@@ -20,16 +23,19 @@ header {
     align-items: center;
 }
 
+/* Sets font-size and font-weight for h1 element */
 h1 {
     font-size: 28px;
     font-weight: bold;
     
 }
 
+/* Styles the search-form section with display:flex */
 #search-form {
     display: flex;
 }
 
+/* Styles the city-input section with border, padding, font-size, width, and font-family */
 #city-input {
     border: none;
     padding: 10px;
@@ -39,6 +45,7 @@ h1 {
   
 }
 
+/* Styles the search-btn section with background-color, border, padding, font-size, and cursor */
 #search-btn {
     background-color: #ae91e4;
     border: none;
@@ -47,10 +54,12 @@ h1 {
     cursor: pointer;
 }
 
+/* Styles the search-btn:hover section with background-color */
 #search-btn:hover {
     background-color: #7440f0;
 }
 
+/* Styles the main section with display:flex, flex-wrap, justify-content, align-items, padding, and font-family */
 main {
     display: flex;
     flex-wrap: wrap;
@@ -60,6 +69,7 @@ main {
     font-family: 'Fjalla One', sans-serif;
 }
 
+/* Styles the current-weather section with flex-basis, margin-bottom, padding, background-color, and border-radius */
 #current-weather {
     flex-basis: 100%;
     margin-bottom: 20px;
@@ -68,17 +78,19 @@ main {
     border-radius: 5px;
 }
 
+/* Styles the current-weather img section with display:block and margin:auto */
 #current-weather img {
     display: block;
     margin: 0 auto;
 }
 
+/* Styles the forecast section with display:flex and flex-wrap */
 #forecast {
     display: flex;
     flex-wrap: wrap;
 }
 
-
+/* Styles the footer section with background-color, color, padding, and text-align */
 footer {
     background-color: #34495e;
     color: #fff;
