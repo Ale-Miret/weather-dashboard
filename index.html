@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Weather Dashboard</h1>
+      <form id="search-form">
+        <input type="text" id="city-input" placeholder="Enter city name" />
+        <button type="submit" id="search-btn">Search</button>
+      </form>
+    </header>
+    <main>
+      <div id="current-weather">
+        <h2 id="city-date"></h2>
+        <img id="weather-icon" alt="" />
+        <p id="temp"></p>
+        <p id="humidity"></p>
+        <p id="wind-speed"></p>
+      </div>
+      <div id="forecast-cards"></div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Weather Dashboard</p>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
+
