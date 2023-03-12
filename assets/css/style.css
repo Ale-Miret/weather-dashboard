@@ -6,12 +6,13 @@
 
 body {
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.4;
+    background-color: rgb(177, 180, 185);
 }
 
 header {
-    background-color: #34495e;
+    background-color: #364b61;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -22,21 +23,24 @@ header {
 h1 {
     font-size: 28px;
     font-weight: bold;
+    
 }
 
 #search-form {
     display: flex;
 }
 
-#search-input {
+#city-input {
     border: none;
     padding: 10px;
     font-size: 16px;
-    width: 200px;
+    width: 200px; 
+    font-family: 'Fjalla One', sans-serif;
+  
 }
 
 #search-btn {
-    background-color: #fff;
+    background-color: #ae91e4;
     border: none;
     padding: 10px;
     font-size: 16px;
@@ -44,7 +48,7 @@ h1 {
 }
 
 #search-btn:hover {
-    background-color: #f2f2f2;
+    background-color: #7440f0;
 }
 
 main {
@@ -53,6 +57,7 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 #current-weather {
@@ -63,19 +68,9 @@ main {
     border-radius: 5px;
 }
 
-#current-weather h2 {
-    font-size: 24px;
-    font-weight: bold;
-}
-
 #current-weather img {
     display: block;
     margin: 0 auto;
-}
-
-#current-weather p {
-    font-size: 16px;
-    margin: 10px 0;
 }
 
 #forecast {
@@ -83,28 +78,6 @@ main {
     flex-wrap: wrap;
 }
 
-.forecast-card {
-    flex-basis: calc(100% / 5 - 20px);
-    margin: 10px;
-    padding: 20px;
-    background-color: #f2f2f2;
-    border-radius: 5px;
-}
-
-.forecast-card h3 {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.forecast-card img {
-    display: block;
-    margin: 0 auto;
-}
-
-.forecast-card p {
-    font-size: 16px;
-    margin: 10px 0;
-}
 
 footer {
     background-color: #34495e;

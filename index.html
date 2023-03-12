@@ -9,15 +9,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
   </head>
   <body>
+    <!-- body section containing the main content  -->
     <header>
       <h1>Weather Dashboard</h1>
       <form id="search-form">
+        <!-- form section contains a search form where users can enter a city name to get weather information -->
         <input type="text" id="city-input" placeholder="Enter city name" />
         <button type="submit" id="search-btn">Search</button>
       </form>
     </header>
     <main>
+        <!-- main section containing the main content of the webpage and the current weather information-->
       <div id="current-weather">
+        <!-- contains the current weather information such as city name, weather icon, temperature, humidity, and wind speed --> 
         <h2 id="city-date"></h2>
         <img id="weather-icon" alt="" />
         <p id="temp"></p>
@@ -27,6 +31,7 @@
       <div id="forecast-cards"></div>
     </main>
     <footer>
+        <!-- footer section  -->
       <p>&copy; 2023 Weather Dashboard</p>
     </footer>
     <script src="./assets/js/script.js"></script>
