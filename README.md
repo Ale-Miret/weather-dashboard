@@ -27,4 +27,5 @@ To get started with the project, follow these steps:
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
 ## Deployed Links
-[Github Repo](https://github.com/Ale-Miret/weather-dashboard)
+* [Github Repo](https://github.com/Ale-Miret/weather-dashboard)
+* [Deployed Page](https://ale-miret.github.io/weather-dashboard/)
